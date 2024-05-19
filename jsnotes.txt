@@ -1,0 +1,112 @@
+
+
+
+        JavaScript - Programming Language (Node js)
+    ---------------------------------------------------
+
+    - to display content : console.log(content)
+    - Data types in JavaScript : using typeof
+        - string
+        - number
+        - boolean
+        - undefined
+        - object
+    - Dynamic Programming Language: type of the Variable is depending on the value assign to it
+    - Identifiers : set of rules to setup name for Variables
+    - Variables : used to hold / store values / content
+        - Variables-name = value
+        - var / let / const keyword Variables-name
+        - Variable Hoisting
+        - Difference between var / let / const
+            var                 const                   let
+    -----------------------------------------------------------------
+        1. var keyword          const keyword           let keyword
+        2. Hoisting             Hoisting without        Hoisting without
+        with initilisation      initilisation           initilisation
+        3. global scope         block scope             block scope
+        4. can change its       value is constant       value can be 
+        values                                          change
+    - Concantenation : joining
+    - template literals
+    - Operators in js
+        - Assignment Operator: =
+        - Short hand Operators: += -=
+        - Unary Operator: ++ -- : return numbers
+        - Arithmetic Operator: + - / * % ** : return numbers
+        - Relational Operators: > < >= <= == === != : return boolean 
+        - Logical Operators : to combine Relational expressions - return boolean
+
+            AND                         OR                          NOT
+            T && T = T              T || T = T                      !T = F  
+            T && F = F              T || F = T                      !F = T
+            F && T = F              F || T = T
+            F && F = F              F || F = F
+        - Ternery Operator: condition?true statements:false statements
+        - to change string to number type: use either + or Number() or parseInt()
+    - Conditional statements
+        - if - else statements
+            - if(condition){
+                //execute when condition become true
+            }else{
+                 //execute when condition become false
+            }
+        - else if ladder
+        - Switch 
+            switch(expression){
+                case value: statements break statements
+                defualt: statements
+            }
+    - looping statements : execute same task repeatedly
+        - while loop
+            - syntanx
+                - create and initiliase a Variable
+                - while(condition){
+                    execute statements when condition become true: task
+                    give code to change the value of Variable used in condition
+                }
+        - for loop
+            - syntanx
+                for(initiliase;condition;change Variable value){
+                    execute statements when condition become true: task
+                }
+        - break statements : break from a loop 
+        - continue statements : to skip task for some items
+        - Nested loop : a loop within another loop
+    - Functions: to execute specific task 
+        - 2 part
+            - function definition: to define the task
+                - syntax:
+                function function-name(arg1,arg2...argn){
+                    function body , define specific task
+                }
+            - function call / invoke
+                - syntanx:
+                 function-name(p1,p2,..pn)
+        - return statements : used to return the control back to function call
+        - Functions Hoisting
+        - Types of Functions
+            - Arrow Functions: 
+                Variable-name = (arg1,arg2,...argn)=>{ function body }
+            - Predefined function: console.log()
+            - Callback function: a function definition inside another function call
+                function-name(function definition)
+            - Recurssion: calling the same function inside its function definition
+                function function-name(){
+
+                    function-name()
+                }
+            - Anonymous Functions : nameless function are self executing function
+            - Nested function: a function inside another function
+                - Closure property
+    - Array : used to store more values in a single Variable
+        - Nested Array: Array inside another array
+        - Array Methods: syntanx- array-name.array-method()
+            - push(content) : insert content at the end of the given array
+            - unshift(content) : insert content at the start of the given array
+            - pop() : remove last item from the given array
+            - shift() : remove first item from the given array
+            - sort(): sort the same array
+            - forEach(callback): similar to for of loop
+            - filter(callback) : based on a condition filter the array items whose statisfy the condition and return them as a new array
+            - find(callback): return a single item who satisfy the condition given in the body of callback
+            - map(callback): 

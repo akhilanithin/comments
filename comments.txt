@@ -1,0 +1,43 @@
+#VirtualEnvCreation
+.............................
+
+mkdir django-postgres
+
+cd django-postgres
+
+
+
+
+python -m venv env
+
+cd env
+
+cd scripts
+
+activate
+
+pip install django
+
+django-admin startproject cart (for new project app )
+
+cd cart 
+
+code .
+
+python manage.py startapp category
+
+pip install -r requirements.txt
+
+python manage.py runserver
+
+
+
+
+
+
+
+
+
+
+
+

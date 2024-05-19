@@ -1,0 +1,40 @@
+git init
+
+git status (to view all code to be pushed to git)
+
+git add . (add those code to the branch)
+
+git status (again just check the status)
+
+git commit -m "fee mngmt changed" (commit the new code with a msg in quotes)
+
+
+
+
+
+create respositori
+
+git remote add origin URL [origin can be change]
+
+
+git branch (used to list all branches)
+
+git push -u origin main (push master to main)
+[master and origin is changable]
+
+git pull URL
+
+git merge master
+
+#########################################
+
+
+$ git config --global user.name "ImDwivedi1"  
+$ git config --global user.email 				"Himanshudubey481@gmail.com"  
+
+
+git checkout -b testbranch (creates new branch and move into it )
+
+git checkout testbranch  (to move to testbranch)
+
+git clone URL  
